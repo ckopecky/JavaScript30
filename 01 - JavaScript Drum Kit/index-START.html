@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./index.js" async></script>
 </head>
 <body>
 
-
+  <header>
+    <h1>Vanilla JS Drumkit</h1>
+    <h4>Press the corresponding key to make some noise!</h4>
+  </header>
   <div class="keys">
+    <!-- data keys are the keystroke ascii codes -->
     <div data-key="65" class="key">
       <kbd>A</kbd>
       <span class="sound">clap</span>
@@ -57,9 +62,7 @@
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
-<script>
 
-</script>
 
 
 </body>
